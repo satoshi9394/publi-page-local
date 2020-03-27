@@ -12,16 +12,16 @@ import { Link } from '@material-ui/core';
 const useStyles = makeStyles(theme => ({
     root: {
         width: 200,
-        position: 'relative',
+        position: 'absolute',
         background: "#f1f1f1",
         '&:hover': {
-            position: 'absolute',
+            position: 'fixed',
             background: "#f00",
-            width: '80%',
-            height: 250,
+            width: 350,
+            height: 150,
             zIndex: 100,
-            top: '0px',
-            left: '0px'
+            top: '100px',
+            left: '100px'
         }
 
     },
@@ -46,9 +46,10 @@ const useStyles = makeStyles(theme => ({
     }
 }));
 
-export default function SmallCard(props) {
+export default function Card2(props) {
     const classes = useStyles();
-
+    console.log('ora',props.info)
+    
     return (
         <Card
             className={classes.root}

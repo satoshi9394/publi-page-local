@@ -1,0 +1,15 @@
+{
+  "tamaño": 1,
+  "esquema" :1,
+  "titulo": "Etiqueta azul claro",
+  "telefono": "654 345 34",
+  "url": "",
+  "imgURL":"https://sifu.unileversolutions.com/image/es-MX/recipe-topvisual/2/1260-709/sopa-de-pasta-50425569.jpg",
+  "styles": {
+    "backgroundColor": "#5ec8cb",
+    "backgroundHoverColor":"#4c5035",
+    "left": "30",
+    "top": "400",
+    "zIndex": 4
+  }
+}

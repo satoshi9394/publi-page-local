@@ -1,0 +1,13 @@
+{
+  "tamaño": 1,
+  "esquema" :1,
+  "titulo": "TIM rent a Bike",
+  "telefono": "654 345 34",
+  "url": "https://www.timrentabike.com",
+  "styles": {
+    "backgroundColor": "violet",
+    "left": "-200",
+    "top": "0",
+    "zIndex": 4
+  }
+}
