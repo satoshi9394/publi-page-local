@@ -4,6 +4,8 @@
   "titulo": "Etiqueta Verde",
   "telefono": "654 345 34",
   "url": "https://www.raulzarza.com",
+  "imgURL":"",
+  "locationURL":"",
   "styles": {
     "backgroundColor": "green",
     "left": "0",

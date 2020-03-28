@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import Card2 from './components/card2'
 import Card4 from './components/card4'
+import Navigation from './components/Navigation'
 
 import timRentaBike from './empresas/timRentABike'
 import timRentaBike2 from './empresas/timRentABike2'
@@ -35,14 +36,8 @@ function App() {
 
   return (
     <div className="App">
-      <header >
-        <p>
-          Servicios a domicilio y para llevar en
-        </p>
-        <h3>
-          LA PAZ, B.C.S.
-        </h3>
-      </header>
+      <Navigation/>
+      
 
       <div
         style={{

@@ -1,9 +1,11 @@
 {
   "tamaño": 1,
   "esquema" :1,
-  "titulo": "TIM rent a Bike",
+  "titulo": "Etiqueta violeta",
   "telefono": "654 345 34",
-  "url": "https://www.timrentabike.com",
+  "url": "https://www.raulzarza.com",
+  "imgURL":"",
+  "locationURL":"https://goo.gl/maps/1LzKj6rWrohY7msN9",
   "styles": {
     "backgroundColor": "violet",
     "left": "-200",

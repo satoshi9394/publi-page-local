@@ -9,6 +9,7 @@ import SkipPreviousIcon from '@material-ui/icons/SkipPrevious';
 import PlayArrowIcon from '@material-ui/icons/PlayArrow';
 import SkipNextIcon from '@material-ui/icons/SkipNext';
 import { Link } from '@material-ui/core';
+import LocationOnIcon from '@material-ui/icons/LocationOn';
 
 const useStyles = makeStyles(theme => ({
     root: {
@@ -67,13 +68,25 @@ export default function MediaControlCard(props) {
                     <Typography variant="subtitle1" color="textSecondary">
                         {props.info.telefono}
                     </Typography>
-                </CardContent>
-                <div className={classes.controls}>
                     <Link href={props.info.url}>
                         {props.info.url ?
                             props.info.url.split('.')[1] + '.' + props.info.url.split('.')[2]
                             : ''}
                     </Link>
+                    {props.info.locationURL ? <IconButton 
+                    aria-label="share"
+                    href={props.info.locationURL}
+                    >
+                        <LocationOnIcon
+                        fontSize="large"/> Aquí estamos
+                        
+                    </IconButton>
+                    :''}
+                    
+                    
+                </CardContent>
+                <div className={classes.controls}>
+                   
                 </div>
             </div>
             <CardMedia
